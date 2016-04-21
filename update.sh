@@ -1,17 +1,12 @@
-#/bin/bash
-
-echo "In order to update Math Machine, you must have git installed."
-echo "Are you ready to install updates? [y,n]"
+#!/usr/bin/env bash
+echo "To update Math Machine, you need to have git installed."
+echo "Are you ready to update?"
 read confirm
-if [ "$confirm" = "y" ] || if [ "$confirm" = "Y" ]; then
+if [ "$confirm" = "y" ]; then
   echo "Updating"
-  if git pull --rebase --stat origin master
-  then
-    echo "Math Machine has been updated!"
-  else
-    echo "Math Machine could not update. Please try again later."
+  git pull --rebase --stat origin master
+    echo "Math Machine has been updated."
     exit
-  fi
 else
   echo "Aborting"
   exit
