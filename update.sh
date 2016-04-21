@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo "To update Math Machine, you need to have git installed."
-echo "Are you ready to update?"
+echo "Are you ready to update? [y,n]"
 read confirm
 if [ "$confirm" = "y" ]; then
   echo "Updating"

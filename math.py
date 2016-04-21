@@ -19,6 +19,14 @@ if ask1 == "1" or ask1 == "one":
         conversion2 = int(float(data1))
         answer = (conversion2 - conversion1)
         print ("Your answer is: " + str(answer))
+    elif "/" in ask2:
+        data1, data2, data3 = ask2.split(" ", 3)
+        data4, data5 = data1.split("x", 2)
+        data6, data7 = data5.split("/", 2)
+        conversion1 = int(float(data3))
+        conversion2 = int(float(data7))
+        answer = (conversion1 * conversion2)
+        print (answer)
 
 
 
