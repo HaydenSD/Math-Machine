@@ -36,15 +36,15 @@ if ask1 == "1" or ask1 == "one":
         print ("Your answer is: " + str(answer))
     else:
         print ("This equation is not valid. Please check math.txt.")
-
-
-
-
-
-
-#data1, data2, data3 = ask2.split(" ", 3)
-#data4, data5 = data1.split("x", 2)
-#conversion1 = int(float(data4))
-#conversion2 = int(float(data3))
-#answer = (conversion2 / conversion1)
-#print (answer)
+elif ask1 == "cir":
+    ask2 = input("What problem do you want solved? Vaild answers can be found in math.txt. ")
+    if ask2 == "cc":
+        ask3 = input("What is your radius? ")
+        conversion1 = int(float(ask3))
+        answer = (2 * 3.14 * conversion1)
+        print ("Your answer is: " + str(answer))
+    if ask2 == "a":
+        ask3 = input("What is your radius? ")
+        conversion1 = int(float(ask3))
+        answer = (3.14 * conversion1**2)
+        print("Your answer is: " + str(answer))
