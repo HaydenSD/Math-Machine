@@ -26,15 +26,16 @@ if ask1 == "1" or ask1 == "one":
         conversion1 = int(float(data3))
         conversion2 = int(float(data7))
         answer = (conversion1 * conversion2)
-        print (answer)
+        print ("Your answer is: " + str(answer))
     elif "*" in ask2:
         data1, data2, data3, data4, data5 = ask2.split(" ", 4)
         data6 = data1.split("x", 2)
         conversion1 = int(float(data1))
         conversion2 = int(float(data5))
         answer = (conversion2 / conversion1)
-        print (answer)
-
+        print ("Your answer is: " + str(answer))
+    else:
+        print ("This equation is not valid. Please check math.txt.")
 
 
 
