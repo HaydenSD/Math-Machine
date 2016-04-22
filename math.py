@@ -48,3 +48,8 @@ elif ask1 == "cir":
         conversion1 = int(float(ask3))
         answer = (3.14 * conversion1**2)
         print("Your answer is: " + str(answer))
+    if ask2 == "d":
+        ask3 = input("What is your radius? ")
+        conversion1 = int(float(ask3))
+        answer = (conversion1 * 2)
+        print ("Your answer is: " + str(answer))
