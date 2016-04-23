@@ -53,3 +53,26 @@ elif ask1 == "cir":
         conversion1 = int(float(ask3))
         answer = (conversion1 * 2)
         print ("Your answer is: " + str(answer))
+elif ask1 == "ba":
+    ask2 = input("Please enter your addition problem: ")
+    data1, data2, data3 = ask2.split(" ", 3)
+    conversion1 = int(float(data1))
+    conversion2 = int(float(data3))
+    answer = (conversion1 + conversion2)
+    print ("Your answer is: " + str(answer))
+elif ask2 == "bs":
+    ask2 = input("Please enter your subtraction problem: ")
+    data1, data2, data3 = ask2.split(" ", 3)
+    conversion1 = int(float(data1))
+    conversion2 = int(float(data3))
+    answer = (conversion1 - conversion2)
+    print ("Your answer is: " + str(answer))
+elif ask2 == "bm":
+    ask2 = input("Please enter your multiplication problem: ")
+    data1, data2, data3 = ask2.split(" ", 3)
+    conversion1 = int(float(data1))
+    conversion2 = int(float(data3))
+    answer = (conversion1 * conversion2)
+    print ("Your answer is: " + str(answer))
+elif ask2 == "bd":
+    ask2 = input("")

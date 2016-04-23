@@ -2,3 +2,7 @@
 cir = circle (radius, circumference, diameter, area, surface area)
   cc = circumference, d = diameter, a = area
     Ex: cc, 7
+ba = Basic Addition
+bs = Basic Subtraction
+bm = Basic Multiplication
+bd = Basic Division
