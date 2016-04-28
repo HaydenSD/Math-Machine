@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 #THIS IS A WORK IN PROGRESS! IT WILL NOT WORK!
 
