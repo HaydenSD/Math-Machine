@@ -27,13 +27,17 @@ cd Math-Machine
 ```
 Then, run:
 ```
+chmod +x math.py
+```
+Finally, run:
+```
 python3 math.py
 ```
 You are now running Math Machine!
 
 # Updating
 
-A simple update script is included with Math Machine. Simply run: 
+A simple update script is included with Math Machine. Simply run:
 ```
 chmod +x update.sh
 ```
