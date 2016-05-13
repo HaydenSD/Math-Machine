@@ -6,3 +6,4 @@ ba = Basic Addition
 bs = Basic Subtraction
 bm = Basic Multiplication
 bd = Basic Division
+sv = Volume of a sphere
