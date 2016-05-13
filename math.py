@@ -81,3 +81,8 @@ elif ask1 == "bd":
     conversion2 = int(float(data3))
     answer = (conversion1 / conversion2)
     print ("Your answer is: " + str(answer))
+elif ask1 == "sv":
+    ask2 = input("Please enter your radius: ")
+    conversion1 = int(float(ask2))
+    answer = (4/3 * 3.14 * conversion1**3)
+    print ("Your answer is: " + str(answer))
