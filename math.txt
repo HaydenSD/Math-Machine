@@ -1,4 +1,4 @@
-1, one = One step equations (2x = 10) (NOTE: Multiplication equations have to be formatted as: n * n = n, EX: 2 * x = 10 )
+1, one = One step equations (2 + x = 4) (NOTE: Multiplication equations have to be formatted as: n * n = n, EX: 2 * x = 10 )
 cir = circle (radius, circumference, diameter, area, surface area)
   cc = circumference, d = diameter, a = area
     Ex: cc, 7
