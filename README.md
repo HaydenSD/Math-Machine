@@ -46,3 +46,6 @@ and then:
 ./update.sh
 ```
 Then follow the instructions. If all goes well, Math Machine will update!
+
+# Website
+Our website is currently under development, but you can find it at [haydensd.github.io/Math-Machine](http://haydensd.github.io/Math-Machine).
